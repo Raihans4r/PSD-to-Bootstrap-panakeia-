@@ -1,0 +1,150 @@
+/* Global Css */
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+
+section{
+	padding: 50px 0;
+}
+
+h1{
+
+}
+
+h2{
+	margin: 20px auto;
+	font-size: 30px;
+}
+
+h3{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+h4{
+
+}
+
+p{
+
+}
+
+.title{
+	text-align: center;
+	color: white;
+}
+
+.sub-title{
+	padding-top: 280px;
+}
+
+
+.no-padding{
+	padding: 0;
+}
+.allign{
+	padding: 30px;
+}
+/* Theme CSS */
+.navbar{
+	background-color: #edeff1;
+	padding: 15px;
+}
+
+.nav-link {
+    color: #31353e;
+}
+
+.nav-link.js-scroll-trigger.active {
+	    background-color: #dd4b2b;
+    padding: 6px 18px;
+    border-radius: 20px;
+    color: #fff;
+
+}
+
+.hero{
+	background: url(../img/banner.png)no-repeat;
+	background-size: cover;
+
+}
+
+.btn{
+	background-color: white;
+	color: #612316;
+	margin: 40px auto;
+	padding: 4px 20px;
+    border-radius: 20px;
+}
+
+.facility{
+	background-color: #edeff1;
+}
+.foodnews{
+	text-align: center;
+}
+
+.newsletter{
+	background: url(../img/news.png)no-repeat;
+	background-size: cover;
+}
+
+.place{
+	background-color: #d75d0d;
+}
+
+footer{
+	background: url(../img/news.png)no-repeat;
+	background-size: cover;
+	padding: 105px;
+}
+
+.btn-one{
+	background-color: #dd4b2b;
+	color: white;
+	margin: 20px auto;
+	padding: 6px 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-two{
+	background-color: #4b4d73;
+	color: white;
+	margin: 20px auto;
+	padding: 6px 30px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.form-control{
+	width: 39%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff7a;
+    margin-top: 0px;
+}
+
+input.btn{
+	    position: absolute;
+    top: 76px;
+    right: 355px;
+    padding: 6px 36px;
+}
+
+@media (min-width : 0px) and (max-width: 500px) {
+	 input.btn{
+	 	    top: 124px;
+    left: 250px;
+	 }
+	 .form-control{
+	 	left: 100px;
+	 	position: absolute;
+	 }
+
+
+
+
